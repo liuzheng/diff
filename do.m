@@ -1,11 +1,13 @@
 function do=do(a,b,c,d)
-%a=textread('./a.txt','%s')
-%b=textread('./b.txt','%s')
-%{
-[filename,filepath]=uigetfile(...
-    {'*.txt','Subripper (*.txt)';...
-    '*.*','All Files (*.*)'}); 
-%}
+% This function is to find the a not include b
+
+% Liuzheng 
+% Copyright (c) 2012
+
+% If you have some advises or problems , please mail to me
+% Gmail:liuzheng712
+% Thank you !
+
 if nargin==3
     d=1;
 elseif nargin==2
